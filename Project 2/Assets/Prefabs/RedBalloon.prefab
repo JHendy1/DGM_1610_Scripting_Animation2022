@@ -205,8 +205,9 @@ GameObject:
   - component: {fileID: 3998682717249898479}
   - component: {fileID: 3998682717249898472}
   - component: {fileID: 3998682717249898473}
+  - component: {fileID: 263863760374199952}
   m_Layer: 0
-  m_Name: red balloon
+  m_Name: RedBalloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,3 +305,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickToPop: 3
   scaleToIncrease: 0.1
+  ScoreToGive: 100
+--- !u!114 &263863760374199952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3998682717249898474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95475730d04a343319ddddc2e8323613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  upperBound: 25

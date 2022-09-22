@@ -24,9 +24,6 @@ public class ScoreManager : MonoBehaviour
         score -= amount; //Decrease score by amount
         UpdateScoreText(); //Update score UI text
     }
-    public void UpdateScoreText()
-    {
-        scoreText.text = "Score:" + score;
-    }
+    public void UpdateScoreText() => scoreText.text = "Score:" + score;
 
 }

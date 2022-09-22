@@ -14,8 +14,8 @@ public class FloatUp : MonoBehaviour
     void Start()
     {
         //reference scoremanager component
-        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>(); balloon = GetComponent; < Balloon > ;//reference balloon script
-
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>(); //reference balloon script
+        balloon = GetComponent<Balloon>();
     }
 
         // Update is called once per frame
@@ -27,7 +27,7 @@ public class FloatUp : MonoBehaviour
             if(transform.position.y > upperBound)
 
             {
-            scoreManager.DecreaseScoreText(Balloon.scoreToGive); //subtract scoreToGive from total score
+            scoreManager.DecreaseScoreText(balloon.ScoreToGive); //subtract scoreToGive from total score
             Destroy(gameObject); //Pop balloon
             }
         
