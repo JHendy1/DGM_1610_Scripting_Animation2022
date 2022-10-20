@@ -585,6 +585,7 @@ GameObject:
   - component: {fileID: 264071175}
   - component: {fileID: 264071177}
   - component: {fileID: 264071178}
+  - component: {fileID: 264071179}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Untagged
@@ -704,6 +705,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &264071179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264071174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70bd448fd71e4efba42624911bb037a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  stopDistance: 5
+  retreatDistance: 2
+  startDelay: 1
+  projectile: {fileID: 8417218693218290546, guid: 3471ce61f5ce2433ab88f7b3d53ac113, type: 3}
 --- !u!1 &303364033
 GameObject:
   m_ObjectHideFlags: 0

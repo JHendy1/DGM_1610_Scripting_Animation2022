@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player")) //destroy projectile
+        if (other.CompareTag("Player")) //destroy projectile
         {
             DestroyProjectile();
         }

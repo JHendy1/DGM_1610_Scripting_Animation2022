@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8417218693218290551}
   - component: {fileID: 8417218693218290544}
   - component: {fileID: 8417218693218290545}
-  - component: {fileID: 3343391291432852661}
+  - component: {fileID: -4567769176486220634}
   m_Layer: 0
   m_Name: Magic Projectile
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8828125, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3343391291432852661
+--- !u!114 &-4567769176486220634
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d02a4c2fec9c4d3c85a0a96d96b4e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 6
