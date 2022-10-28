@@ -42,7 +42,7 @@ public class MoveAndShoot : MonoBehaviour
             Instantiate(projectile, transform.position, Quaternion.identity);//Fire projectile
             shotDelay = startDelay;
         }
-        else
+        else 
         {
             shotDelay -= Time.deltaTime;//Count down
         }
