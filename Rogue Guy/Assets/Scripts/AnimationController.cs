@@ -11,7 +11,7 @@ public class AnimationController : MonoBehaviour
     {
         // Get animator and animator component.
         animSpeed = GetComponent<Animator>();
-        Animation = GetComponent<Animation>();
+        anim = GetComponent<Animation>();
         
     }
 
@@ -36,5 +36,17 @@ public class AnimationController : MonoBehaviour
         animSpeed.speed = 0f;
         Debug.Log("Animation is Paused");
     }
+
+    // Control Animation via Animation Clip and Buttons
+    void PushPlay()
+    {
+        anim.Play();
+    }
+
+    void PushStop()
+    {
+        anim.Stop();
+    }
+
 
 }
